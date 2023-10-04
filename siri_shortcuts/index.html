@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<title>Siri Shortcuts</title>
+	</head>
+<body>
+<h2>Siri Shortcuts</h2>
+
+<p>If you have an iPhone or Mac and haven’t given Siri Shortcuts a try, let me show you some simple examples that might spike your interest. This is a deviation from any <a href="https://mkrisher.substack.com/p/learning-rust-by-comparing-to-ruby?utm_source=profile&amp;utm_medium=reader2">Ruby or Rust writing</a>, but is a fun deviation.</p>
+
+<p>Siri Shortcuts (aka the Shortcuts app) allows you to automate day to day tasks. It uses a GUI where you chain together commands. Some of my Shortcuts are very long. However, there are a few really short ones that show off the power quite well.</p>
+
+<p>My home screen is all Shortcuts at this point. No app icons to distract me when I open my phone. No little red dots stealing my attention. At least in certain focuses. Below is a pic of my current home screen in my non-work focus.</p>
+
+<figure><img src="C207555A-6E8F-4E21-8D62-5E14A96ABC04_1_102_o.jpeg"/></figure>
+
+<p>The wallpaper can be found <a href="https://basicappleguy.com/basicappleblog/rancho-at-night">here</a>.</p>
+
+<p>The Shortcuts in my Dock are fairly involved. On the far left is the Shortcut to automate my home. Next is the Shortcut to select a music source (Music, Podcasts, <a href="https://bandcamp.com/mkrisher">Bandcamp</a>, etc…). Third is my “<a href="https://medium.com/@mkrisher/book-review-building-a-second-brain-c1c5098ce38d">Second Brain</a>” Shortcut where I can create notes, create Todo items (in Things), read email, view my calendar, etc… Last is my Shortcut to switch focus modes. I have modes for sleeping, working, playing, etc… Each has a different home screen config. The one I use most is the “play” focus which comes on at 5pm. It is shown in the screen shot above.</p>
+
+<p>On to the simple Shortcuts. I like to write down all of the random things my young kids say and do. So I created a Shortcut to allow me to quickly capture them. The general idea is that I have created a shared Apple Note for each kid where my wife and I can capture things. In order to encourage capture those quick every day moments, I have created a Shortcut that simply prompts for text. After entering the text and tapping done, it adds the text, along with a timestamp to the child’s Note. The idea being that when they get to be 18 or so, we’ll share the Note with them and they can go back through their lives and read brief text entries describing completely random and possibly funny things.</p>
+
+<p>Here is how you can add a quick Shortcut to capture your kids lives as well.</p>
+
+<figure><img src="438A2EE2-585F-4C03-92F2-0F10A3AEAD2B_1_102_o.jpeg"/></figure>
+
+<p>First step is to create an Apple Note for the child. Then open the Shortcuts app on your phone. </p>
+
+<p>Create a new Shortcut. Give it a name and an icon at the top.</p>
+
+<p>Next, at the bottom type in “set” and scroll down. You’ll see a number of matches. We’re looking for “Set Variable”. Tap it and it will be added to your Shortcut. Now go back up and tap the first “field” in the Set variable action. Give it a name. I gave it the name “date”. Tap the second field and select the Date option, rather than time. We’re going to use this variable for the timestamp of our entries.</p>
+
+<p>Next, go back to the bottom and type “text”. We want what is probably the first option in the search results simply named “Text”. This allows us to define a block of text. After tapping “Text”, it will be added to your Shortcut. Tap in its field. I added a few returns and then start typing “date” and notice the toolbar that appears right on top of your keyboard. It allows us to select the “date” variable we created early. Tap that and notice it adds it to the “Text” field with an icon that signifies it is a variable.</p>
+
+<p>Now that we have the date and we’re adding it to a text field, let’s add that text to our note. In the search bar, type “append”. Scroll down until you see “Append to Note”. Tap it to add it to our Shortcut. In its first field, tap and start typing “Text”. It should automatically detect that we are trying to use the Text field we defined in the previous step. In the second field, select the Apple Note you created.</p>
+
+<p>One last step. So far all we’re adding is a date to the Note. In the search bar, type “Append” again. Select “Append to Note” again. This time in the first field type, tap to select it and notice the toolbar that appears above your keyboard again. Start dragging it left and notice you can scroll. We want to scroll and select “Ask Each Time”. It may be the fifth option or so in the scrollable list. Tap it to select it. And lastly, in the second field for this second Append action, select the Apple Note again.</p>
+
+<p>That is it. You can tap the “share” icon on the bottom of your screen to add it to your home screen. Siri Shortcuts can also be run by name now in iOS 17 as well. Simply pull down from your home screen and start typing the Shortcut name. And yes, it works with Siri too.</p>
+
+<p>This quick text entry has a lot of uses. I try to keep a note with all of my significant purchases for the year. Not for items like food, but more so material possessions. I recently bought a desk microphone to sound clearer in meetings since I work remote. I added it to the list. This helps me look back through the year and see if I only purchased items that stood the test of time, or if some were unnecessary.</p>
+
+</body>
+</html>
+
